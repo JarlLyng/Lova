@@ -11,6 +11,7 @@ var Difference_In_Days = Difference_In_Time / (1000 * 3600 * 24);
 var Difference_In_Years = Math.ceil(Difference_In_Days) / 365;
 //To display the final no. of days (result)
 document.getElementById("age").innerHTML =
+  "is " +
   Difference_In_Years.toFixed(2) +
   " Years old" +
   " (Thats " +
